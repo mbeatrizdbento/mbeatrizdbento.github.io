@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    
+<header id="cabecalho" class="grupo">
+    <img src="imagens/logo_empresa.png" alt="Logo da empresa">
+    <nav id="menu-principal">
+        <ul class="grupo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a class="ativo" href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div id="foto-principalempresa"></div>
+</header>
+<section>
+    <h1>Contacto</h1>
+    <p>Entre em contacto connosco preenchedo o formulário abaixo.</p>
+
+    <form action="#" method="post">
+        <fieldset>
+        <fieldset class="grupo">
+        <div class="campo nome">
+        <label for="nome">Nome <abbr title="preenchimento obrigatório">*</abbr></label>
+        <input type="text" name="nome" id="nome" maxlength="100">
+        </div>
+        <div class="campo empresa">
+        <label for="empresa">Empresa</label>
+        <input type="text" name="empresa" id="empresa" maxlength="100">
+        </div>
+        <div class="campo email">
+            <label for="email">E-mail<abbr title="preenchimento obrigatório">*</abbr></label>
+            <input type="text" name="email" id="email" maxlength="100">
+            </div>
+        <div class="campo telefone">
+            <label for="telefone">Telefone<abbr title="preenchimento obrigatório">*</abbr></label>
+            <input type="number" name="telefone" id="telefone" maxlength="100">
+        </div>
+        
+        <legend>Departamento</legend>
+        <label for="departamento">Departamento</label>
+       <input type="radio" name="tdepartamento" id="cCom" value="comercial" checked/><label for="cCom">Comercial</label> 
+       <input type="radio" name="tdepartamento" id="cFin" value="financeiro" /><label for="cFin">Financeiro</label>
+       <input type="radio" name="tdepartamento" id="cSup" value="suporte" /><label for="cSup">Suporte</label>
+
+        <label for="assunto">Assunto<abbr title="preenchimento obrigatório">*</abbr></label>
+    <select id="assunto" name="assunto">
+        <option>-- Selecione --</option>
+        <option>Orçamento</option>
+        <option>Dúvidas</option>
+        <option>Solicitações</option>
+        <option>Reclamações</option>
+        <option>Outro</option>
+    </select>
+        <div class="campo mensagem">
+            <label for="mensagem">Mensagem<abbr title="preenchimento obrigatório">*</abbr></label>
+            <input type="text" name="Mensagem" id="mensagem" maxlength="300">
+            </div>
+
+            <form action="#">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                    Gostaria de receber a newsletter da empresa
+                </label>
+            </form>
+
+            <div class="button">
+                <button type="submit">Enviar Mensagem</button>
+            </div>
+        </fieldset>
+        </fieldset>
+        </form>
+
+
+
+
+</section>
+<footer id="rodape">
+    <p id="contato">
+        Contato@exemplo.com
+    </p>
+    <p id="endereco">
+        Rua do endereço, 123, Bairro
+        <br>
+        253 666 999
+    </p>
+
+    <p id="copyright">
+        &copy; Empresa Ltda. Todos os Direitos Reservados.
+    </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,218 @@
+body {
+    font-size: 16px; /* Define explicitamente o tamanho da fonte */   
+}
+
+#menu-principal li{
+display:inline
+}
+#menu-principal a{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: black;
+    text-decoration-style: none;
+    margin-left: 32px;
+}
+#menu-principal {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+}
+#foto-principal {
+    height: 200px;
+    background: url(imagens/foto_principal.jpg) no-repeat center top;
+}
+
+#cabecalho {
+    max-width: 60em; /* 1em=16px  60*16 = 960 */
+    min-width: 37.5em; /* 37.5*16 = 600 */
+    margin: 0 auto;
+    position: relative; /* coloquei para o menu-principal vir para a esquerda */
+
+    font-family: "Segoe UI";
+    font-weight: lighter;
+}
+/* https://www.w3schools.com/css/css_link.asp */
+#menu-principal a:hover {
+    color: blue;
+}
+
+#menu-principal a.ativo {
+    color: blue;
+    font-weight: bold;
+}
+
+#menu-principal a:link {
+    text-decoration: none;
+}
+
+#conteudo-principal {
+    float: left;
+    width: 64.583333333% /* 620 de 900 */
+}
+
+#conteudo-secundario {
+    float: right;
+    width: 29.166666666% /* 280 de 900 */
+}
+
+#conteudo {
+    max-width: 60em; /* 1em=16px  60*16 = 960 */
+    min-width: 37.5em; /* 37.5*16 = 600 */
+    margin: 0 auto;
+}
+
+#conteudo-principal h1 {
+    font-size: 2.25em; /* 2.25*16 = 36 */
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+#conteudo-secundario h1 {
+    font-size: 1.5em; /* 1.5*16 = 24 */ 
+}
+#conteudo-secundario p {
+    font-size: 0.875; /* 0.875*16 = 14 */ 
+}
+
+#conteudo-secundario a {
+    font-size: 18px;
+    color: white;  
+}
+
+#conteudo-secundario {
+    background-color: #4c6abb;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+}
+
+#conteudo-secundario2 h1 {
+    font-size: 1.5em; /* 1.5*16 = 24 */ 
+}
+#conteudo-secundario2 p {
+    font-size: 0.875; /* 0.875*16 = 14 */ 
+}
+
+#conteudo-secundario2 a {
+    font-size: 18px;
+    color: white;  
+}
+
+#conteudo-secundario2 {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+}
+
+#rodape {
+    clear: both;
+}
+
+#contato {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin: 12px 12px;
+}
+
+#endereco {
+    float: right;
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+    margin: 12px 12px;
+}
+
+#copyright {
+    clear: both;
+    font-size: 11px;
+    color: #000;
+    display: block;
+    margin: 12px 0px;
+    padding: 1em;
+}
+
+footer {
+    max-width: 60em; /* 1em=16px  60*16 = 960 */
+    min-width: 37.5em; /* 37.5*16 = 600 */
+    margin: 0 auto;
+    background-color: #ccc;
+}
+/* Empresa */
+#foto-principalempresa{
+    height: 100px;
+    background: url(imagens/foto_principal.jpg) no-repeat center top;
+}
+#foto-sede{
+    background: url(imagens/sede_empresa.jpg) right;
+}
+.legenda {
+    margin: 0;
+    color: #FFF;
+    background: #808080;
+    font-style: italic;
+    text-align: center;
+    padding: 0.3em 0.6em;
+    display: inline-block;
+    width: 262px;
+    }
+
+
+/* servicos */
+#foto-principalempresa{
+    height: 100px;
+    background: url(imagens/foto_principal.jpg) no-repeat center top;
+}
+
+.tabela-servicos {
+    border-spacing: 0;
+    width: 100%;
+   }
+   .tabela-servicos caption {
+   font-size: 24px;
+   margin-bottom: 0.5em;
+   text-align: left;
+   }
+   .tabela-servicos th {
+   background: #0F599F;
+   color: #FFF;
+   font-weight: normal;
+   text-align: center;
+   }
+   .tabela-servicos th, .tabela-servicos td {
+   border-bottom: 1px solid #CCC;
+   font-size: 14px;
+   padding: 0.3em;
+   }
+   .tabela-servicos .prazo-entrega {
+   text-align: center;
+   }
+   .tabela-servicos .valor-servico {
+   text-align: right;
+   }
+
+   
+   .depoimento {
+    margin-bottom: 1em;
+    }
+    .depoimento blockquote {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 1.5em;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 0.3em;
+    }
+    .depoimento blockquote p {
+    margin-bottom: 0.7em;
+    }
+    .depoimento .autor {
+        text-align: right;
+        font-size: 12px;
+        }    
